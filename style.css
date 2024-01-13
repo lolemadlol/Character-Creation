@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+}
+
+.container{
+    position: absolute;
+    width: 70rem;
+    height: 40rem;
+    border: 3px solid black;
+    inset: 0;
+    margin: auto;
+}
+
+.imageDisplay{
+    position: absolute;
+    width: 35rem;
+    height: 35rem;
+    border: 3px solid black;
+}
+
+.ch-man{
+    width: 100%;
+    height: 100%;
+}
+
+.ch-hair{
+    position: absolute;
+    top: 0rem;
+    margin-left: -0.1rem;
+    width: 35rem;
+    height: 35rem;
+    display: none;
+}
+
+.ch-shirt{
+    position: absolute;
+    top: -0.2rem;
+    margin-left: -0.1rem;
+    width: 35rem;
+    height: 35rem;
+    display: none;
+}
+
+.ch-accessory{
+    position: absolute;
+    top: 0.1rem;
+    margin-left: 0.1rem;
+    width: 34.5rem;
+    height: 34.5rem;
+    display: none;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 1rem 5rem;
+    margin-left: 30%;
+    font-size: 1rem;
+    transition: 1s;
+}
+
+.btn:hover{
+    background-color: bisque;
+}
+
+.imageItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-right: 14rem;
+}
+
+.imageItems img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.imageItems img:hover{
+    transform: scale(1.1);
+    background-color: bisque;
+}
+
+.imageItems .col-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100px;
+}
+
+.imageItems .col-1 img{
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.imageItems .col-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100px;
+}
+
+.imageItems .col-2 img{
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.imageItems .col-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100px;
+}
+
+.imageItems .col-3 img{
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.imageItems .col-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100px;
+} 
+
+.imageItems .col-4 img{
+    border: 2px solid black;
+    border-radius: 50%;
+}
